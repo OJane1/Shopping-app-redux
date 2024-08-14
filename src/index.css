@@ -11,3 +11,66 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  background-color: #1b1919;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 30% auto;
+}
+
+.block {
+  padding: 20px;
+  background-color: rgba(255,255,255, 0.5);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.clothes-item {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+img {
+  width: 250px;
+  height: auto;
+}
+
+.cartIcon {
+  width: 60px;
+}
+
+.icon {
+  width: 30px;
+}
+
+.categoryButtonSelected {
+  background-color: #A459D1;
+}
+
+.categoryButton:hover {
+  background-color: #FFDD95;
+}
+
+.categoryButton {
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px;
+}
+
+@media all and (max-width: 500px) {
+ h1 {
+    font-size: calc(9px + 2vmin);
+  }
+
+  img {
+    width: 200px;
+  }
+  }
