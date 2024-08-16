@@ -14,8 +14,8 @@ const Clothes = () => {
             return selectedCategory === dress.category;
         }
     )
-        .map((dress, index) => (
-        <div className="clothes-item" key={index}>
+        .map((dress) => (
+        <div className="clothes-item" key={dress.id}>
             <Clothing dress={dress}/>
             </div>
             ))
